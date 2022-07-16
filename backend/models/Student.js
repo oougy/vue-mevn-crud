@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 let studentSchema = new Schema ({
     img: {
-        type: String,
+        type: Image ,
     },
     name: {
         type: String,
